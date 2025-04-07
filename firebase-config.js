@@ -9,32 +9,23 @@ import {
   signInWithPopup, 
   sendPasswordResetEmail 
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-
-import { 
-  getFirestore, 
-  collection, 
-  addDoc, 
-  getDocs, 
-  doc, 
-  getFirestore as firestoreInstance 
-} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+ 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCM17uBZknhqzT_-H1A_Jc410Utj6NBppo",
-  authDomain: "mini-hackathone-35c4a.firebaseapp.com",
-  projectId: "mini-hackathone-35c4a",
-  storageBucket: "mini-hackathone-35c4a.firebasestorage.app",
-  messagingSenderId: "941968400553",
-  appId: "1:941968400553:web:7eeff773e8b1c6abdc09b8",
-  measurementId: "G-N0JDH9D0GV"
-};
+    apiKey: "AIzaSyA6jaYK4e7LFtqzycT-KO5sDYi7ipWf4oA",
+    authDomain: "api-verse-dc2bc.firebaseapp.com",
+    projectId: "api-verse-dc2bc",
+    storageBucket: "api-verse-dc2bc.firebasestorage.app",
+    messagingSenderId: "692038670622",
+    appId: "1:692038670622:web:3ed37cf8f741078bb8910f",
+    measurementId: "G-9YF1DR0SFZ"
+  };
 
 const app = initializeApp(firebaseConfig);
 
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
-const db = getFirestore(app);
-
+ 
 export { 
   auth, 
   createUserWithEmailAndPassword,
@@ -43,10 +34,5 @@ export {
   GoogleAuthProvider, 
   signInWithPopup, 
   sendPasswordResetEmail,
-  addDoc,
-  collection,
-  db,
-  getDocs,
-  doc,
-  firestoreInstance
+ 
 };
