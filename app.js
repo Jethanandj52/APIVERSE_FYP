@@ -1,4 +1,4 @@
-import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, sendPasswordResetEmail,addDoc,collection,db, getDocs, doc} from "./firebase-config.js";
+import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, sendPasswordResetEmail } from "./firebase-config.js";
 
 const googleProvider = new GoogleAuthProvider();
 
