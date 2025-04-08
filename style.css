@@ -151,7 +151,7 @@ margin-left: -75px;
     padding: 10px;
     border-radius: 5px;
     border: none;
-    margin-left: 10%;
+    margin-left: 9%;
     font-weight: bold;
     cursor: pointer;
     align-items: center;
@@ -186,7 +186,7 @@ margin-left: -75px;
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 420px) {
     #loginMain {
         width: 90%;
         padding: 20px 10px;
@@ -202,6 +202,9 @@ margin-left: -75px;
         width: 100%;
         padding: 8px;
          
+    }
+    .google_button{
+        margin-left: 0%;
     }
 }
 
